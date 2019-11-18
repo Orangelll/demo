@@ -10,4 +10,10 @@ public class HelloWorld {
     public String helloWorld(){
         return "hello world";
     }
+
+    @RequestMapping("/xxx")
+    public String xx() {
+        System.out.println("xx");
+        return "xx";
+    }
 }
